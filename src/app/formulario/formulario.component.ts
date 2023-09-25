@@ -10,6 +10,6 @@ export class FormularioComponent {
   operandoB: number = 0;
 
   sumar():void{
-    this.resultado = this.operandoA + this.operandoB;
+   // this.resultado = this.operandoA + this.operandoB;
   }
 }
