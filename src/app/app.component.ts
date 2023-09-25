@@ -10,4 +10,8 @@ export class AppComponent {
 
   resultado: number = 0;
 
+  procesarResultado(resultado: number){
+    this.resultado = resultado;
+  }
+
 }
